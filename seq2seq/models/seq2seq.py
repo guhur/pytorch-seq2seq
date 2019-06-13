@@ -28,7 +28,7 @@ class Seq2seq(nn.Module):
           state of the decoder.
         - **ret_dict**: dictionary containing additional information as follows {*KEY_LENGTH* : list of integers
           representing lengths of output sequences, *KEY_SEQUENCE* : list of sequences, where each sequence is a list of
-          predicted token IDs, *KEY_INPUT* : target outputs if provided for decoding, *KEY_ATTN_SCORE* : list of
+          predicted token IDs, *KEY_INPUT* : target outputs if provided for d batch_generatorecoding, *KEY_ATTN_SCORE* : list of
           sequences, where each list is of attention weights }.
 
     """
